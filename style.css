@@ -1,0 +1,28 @@
+
+
+		div {
+			background-color: grey;
+			
+		}
+		.container {
+			width: 400px;
+			height: 400px;
+			background-color: black;
+		}
+		.hole {
+			background-color: white;
+			display: inline-block;
+			border: solid white 1px;
+			height: 120px;
+			width: 120px;
+
+		}
+		img {
+			width: 90px;
+			height: 90px;
+		}
+		
+
+
+
+	
