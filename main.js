@@ -8,15 +8,15 @@ function randomNumber(){
 holes[randomNumber()].innerHTML = "<img src = http://www.lionsroar.com/wp-content/uploads/2009/05/groundhog-day-driving.jpg>";
 
 
-	for (var j=0; j< holes.length; j++) {
-		holes[j].addEventListener("click", function(){
-		if (this.innerHTML !== ""){
-			this.innerHTML = "";
-			moleCounter++;
-			score.innerText = moleCounter;
-			holes[randomNumber()].innerHTML = "<img src = http://www.lionsroar.com/wp-content/uploads/2009/05/groundhog-day-driving.jpg>";
-		}
-	})
+for (var j=0; j< holes.length; j++) {
+	holes[j].addEventListener("click", function(){
+	if (this.innerHTML !== ""){
+		this.innerHTML = "";
+		moleCounter++;
+		score.innerText = moleCounter;
+		holes[randomNumber()].innerHTML = "<img src = http://www.lionsroar.com/wp-content/uploads/2009/05/groundhog-day-driving.jpg>";
+	}
+})
 };
 
 // need to add and event listener 
